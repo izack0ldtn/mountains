@@ -1,0 +1,69 @@
+.btn {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn-primary{
+    color: white;
+    border: solid 3px white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.4s ease-out;
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: white;
+    border: solid 3px rgb(255, 255, 255);
+}
+
+.btn-green{
+    color: #efefef;
+    background-color: #4CAF50;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.btn-green:hover{
+    background-color: transparent;
+    color: #efefef;
+    padding: 12px;
+    border: 3px solid #4CAF50;
+
+}
+
+.btn-blue{
+    color: #efefef;
+    background-color: #678fff;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.btn-blue:hover{
+    background-color: transparent;
+    padding: 12px;
+    border: 3px solid #678fff;
+}
+
+.is-visible{
+    animation-name: fadeUpward;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeUpward{
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 100;
+    }
+
+}
+
